@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2845C85429FC0B430093DEE3 /* NarutoWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2845C85329FC0B430093DEE3 /* NarutoWorldApp.swift */; };
+		2845C85829FC0B440093DEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2845C85729FC0B440093DEE3 /* Assets.xcassets */; };
+		2845C85B29FC0B440093DEE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2845C85A29FC0B440093DEE3 /* Preview Assets.xcassets */; };
+		2845C86229FC0C7E0093DEE3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2845C86129FC0C7E0093DEE3 /* Home.swift */; };
+		2845C86429FC30820093DEE3 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2845C86329FC30820093DEE3 /* Discover.swift */; };
+		2845C86629FC329D0093DEE3 /* FavoriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2845C86529FC329D0093DEE3 /* FavoriteList.swift */; };
+		2845C86829FC3A700093DEE3 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2845C86729FC3A700093DEE3 /* HeroView.swift */; };
+		2845C86C29FCB7180093DEE3 /* CharacterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2845C86B29FCB7180093DEE3 /* CharacterItem.swift */; };
+		2845C86F29FCC8440093DEE3 /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2845C86E29FCC8440093DEE3 /* CharacterList.swift */; };
+		2845C87129FD02C80093DEE3 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2845C87029FD02C80093DEE3 /* ModelData.swift */; };
+		2845C87329FD0A710093DEE3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2845C87229FD0A710093DEE3 /* NetworkManager.swift */; };
+		2845C87629FD1C9E0093DEE3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2845C87529FD1C9E0093DEE3 /* Constants.swift */; };
+		2845C87929FD2AE60093DEE3 /* charactersData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2845C87829FD2AE60093DEE3 /* charactersData.json */; };
+		2845C88129FD31B50093DEE3 /* narutoApiData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2845C88029FD31B50093DEE3 /* narutoApiData.json */; };
+		2845C8832A014A150093DEE3 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2845C8822A014A150093DEE3 /* UserProfile.swift */; };
+		28B124752A057F54007F6BFF /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B124742A057F54007F6BFF /* Onboarding.swift */; };
+		28DBF07B2A0A788800F6F78D /* OnboardingWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DBF07A2A0A788800F6F78D /* OnboardingWelcomeView.swift */; };
+		28E4A1582A01838D00B29B11 /* NarutoWorldLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A1572A01838D00B29B11 /* NarutoWorldLogo.swift */; };
+		28E4A15B2A026BC700B29B11 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A15A2A026BC700B29B11 /* Extensions.swift */; };
+		28E4A15E2A027F2A00B29B11 /* FavoriteItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A15D2A027F2A00B29B11 /* FavoriteItemRow.swift */; };
+		28E4A1602A02841A00B29B11 /* CharacterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A15F2A02841A00B29B11 /* CharacterDetail.swift */; };
+		28E4A1622A0290DB00B29B11 /* CharacterItemRegulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A1612A0290DB00B29B11 /* CharacterItemRegulation.swift */; };
+		28E4A1642A02A29700B29B11 /* DiscoverRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A1632A02A29700B29B11 /* DiscoverRow.swift */; };
+		28E4A1682A03B8E500B29B11 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A1672A03B8E500B29B11 /* FavoriteButton.swift */; };
+		28E4A16B2A04001900B29B11 /* DiscoverItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4A16A2A04001900B29B11 /* DiscoverItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2845C85029FC0B430093DEE3 /* NarutoWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NarutoWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2845C85329FC0B430093DEE3 /* NarutoWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarutoWorldApp.swift; sourceTree = "<group>"; };
+		2845C85729FC0B440093DEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2845C85A29FC0B440093DEE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2845C86129FC0C7E0093DEE3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2845C86329FC30820093DEE3 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
+		2845C86529FC329D0093DEE3 /* FavoriteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteList.swift; sourceTree = "<group>"; };
+		2845C86729FC3A700093DEE3 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		2845C86B29FCB7180093DEE3 /* CharacterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterItem.swift; sourceTree = "<group>"; };
+		2845C86E29FCC8440093DEE3 /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
+		2845C87029FD02C80093DEE3 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		2845C87229FD0A710093DEE3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2845C87529FD1C9E0093DEE3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2845C87829FD2AE60093DEE3 /* charactersData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = charactersData.json; sourceTree = "<group>"; };
+		2845C88029FD31B50093DEE3 /* narutoApiData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = narutoApiData.json; sourceTree = "<group>"; wrapsLines = 1; };
+		2845C8822A014A150093DEE3 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		28B124742A057F54007F6BFF /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		28DBF07A2A0A788800F6F78D /* OnboardingWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWelcomeView.swift; sourceTree = "<group>"; };
+		28E4A1572A01838D00B29B11 /* NarutoWorldLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarutoWorldLogo.swift; sourceTree = "<group>"; };
+		28E4A15A2A026BC700B29B11 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		28E4A15D2A027F2A00B29B11 /* FavoriteItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItemRow.swift; sourceTree = "<group>"; };
+		28E4A15F2A02841A00B29B11 /* CharacterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetail.swift; sourceTree = "<group>"; };
+		28E4A1612A0290DB00B29B11 /* CharacterItemRegulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterItemRegulation.swift; sourceTree = "<group>"; };
+		28E4A1632A02A29700B29B11 /* DiscoverRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverRow.swift; sourceTree = "<group>"; };
+		28E4A1672A03B8E500B29B11 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		28E4A16A2A04001900B29B11 /* DiscoverItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2845C84D29FC0B430093DEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2845C84729FC0B430093DEE3 = {
+			isa = PBXGroup;
+			children = (
+				2845C85229FC0B430093DEE3 /* NarutoWorld */,
+				2845C85129FC0B430093DEE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2845C85129FC0B430093DEE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2845C85029FC0B430093DEE3 /* NarutoWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2845C85229FC0B430093DEE3 /* NarutoWorld */ = {
+			isa = PBXGroup;
+			children = (
+				2845C85329FC0B430093DEE3 /* NarutoWorldApp.swift */,
+				2845C85729FC0B440093DEE3 /* Assets.xcassets */,
+				2845C85929FC0B440093DEE3 /* Preview Content */,
+				2845C86929FCAAAF0093DEE3 /* Views */,
+				2845C86D29FCC8060093DEE3 /* Model */,
+				2845C87429FD1C5D0093DEE3 /* Utilities */,
+				2845C87729FD2AA30093DEE3 /* Resources */,
+				28E4A1592A0183A000B29B11 /* Components */,
+			);
+			path = NarutoWorld;
+			sourceTree = "<group>";
+		};
+		2845C85929FC0B440093DEE3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2845C85A29FC0B440093DEE3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2845C86929FCAAAF0093DEE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2845C86129FC0C7E0093DEE3 /* Home.swift */,
+				28B124742A057F54007F6BFF /* Onboarding.swift */,
+				2845C86A29FCAB1A0093DEE3 /* Discovers */,
+				28E4A15C2A027EF900B29B11 /* Favorites */,
+				2845C8842A014A1B0093DEE3 /* Profile */,
+				28E4A1692A03B91700B29B11 /* Helpers */,
+				28DBF07A2A0A788800F6F78D /* OnboardingWelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2845C86A29FCAB1A0093DEE3 /* Discovers */ = {
+			isa = PBXGroup;
+			children = (
+				2845C86329FC30820093DEE3 /* Discover.swift */,
+				28E4A1632A02A29700B29B11 /* DiscoverRow.swift */,
+				28E4A16A2A04001900B29B11 /* DiscoverItem.swift */,
+			);
+			path = Discovers;
+			sourceTree = "<group>";
+		};
+		2845C86D29FCC8060093DEE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2845C86B29FCB7180093DEE3 /* CharacterItem.swift */,
+				2845C87029FD02C80093DEE3 /* ModelData.swift */,
+				2845C86E29FCC8440093DEE3 /* CharacterList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2845C87429FD1C5D0093DEE3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2845C87229FD0A710093DEE3 /* NetworkManager.swift */,
+				2845C87529FD1C9E0093DEE3 /* Constants.swift */,
+				28E4A15A2A026BC700B29B11 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2845C87729FD2AA30093DEE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2845C87829FD2AE60093DEE3 /* charactersData.json */,
+				2845C88029FD31B50093DEE3 /* narutoApiData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2845C8842A014A1B0093DEE3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2845C8822A014A150093DEE3 /* UserProfile.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		28E4A1592A0183A000B29B11 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				28E4A1612A0290DB00B29B11 /* CharacterItemRegulation.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		28E4A15C2A027EF900B29B11 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				28E4A15D2A027F2A00B29B11 /* FavoriteItemRow.swift */,
+				2845C86529FC329D0093DEE3 /* FavoriteList.swift */,
+				28E4A15F2A02841A00B29B11 /* CharacterDetail.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		28E4A1692A03B91700B29B11 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2845C86729FC3A700093DEE3 /* HeroView.swift */,
+				28E4A1572A01838D00B29B11 /* NarutoWorldLogo.swift */,
+				28E4A1672A03B8E500B29B11 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2845C84F29FC0B430093DEE3 /* NarutoWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2845C85E29FC0B440093DEE3 /* Build configuration list for PBXNativeTarget "NarutoWorld" */;
+			buildPhases = (
+				2845C84C29FC0B430093DEE3 /* Sources */,
+				2845C84D29FC0B430093DEE3 /* Frameworks */,
+				2845C84E29FC0B430093DEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NarutoWorld;
+			productName = NarutoWorld;
+			productReference = 2845C85029FC0B430093DEE3 /* NarutoWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2845C84829FC0B430093DEE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2845C84F29FC0B430093DEE3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 2845C84B29FC0B430093DEE3 /* Build configuration list for PBXProject "NarutoWorld" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2845C84729FC0B430093DEE3;
+			productRefGroup = 2845C85129FC0B430093DEE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2845C84F29FC0B430093DEE3 /* NarutoWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2845C84E29FC0B430093DEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2845C87929FD2AE60093DEE3 /* charactersData.json in Resources */,
+				2845C85B29FC0B440093DEE3 /* Preview Assets.xcassets in Resources */,
+				2845C85829FC0B440093DEE3 /* Assets.xcassets in Resources */,
+				2845C88129FD31B50093DEE3 /* narutoApiData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2845C84C29FC0B430093DEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2845C87329FD0A710093DEE3 /* NetworkManager.swift in Sources */,
+				28DBF07B2A0A788800F6F78D /* OnboardingWelcomeView.swift in Sources */,
+				2845C86C29FCB7180093DEE3 /* CharacterItem.swift in Sources */,
+				28B124752A057F54007F6BFF /* Onboarding.swift in Sources */,
+				28E4A16B2A04001900B29B11 /* DiscoverItem.swift in Sources */,
+				2845C86F29FCC8440093DEE3 /* CharacterList.swift in Sources */,
+				28E4A1682A03B8E500B29B11 /* FavoriteButton.swift in Sources */,
+				2845C86629FC329D0093DEE3 /* FavoriteList.swift in Sources */,
+				2845C86429FC30820093DEE3 /* Discover.swift in Sources */,
+				2845C8832A014A150093DEE3 /* UserProfile.swift in Sources */,
+				28E4A1582A01838D00B29B11 /* NarutoWorldLogo.swift in Sources */,
+				2845C87629FD1C9E0093DEE3 /* Constants.swift in Sources */,
+				28E4A15E2A027F2A00B29B11 /* FavoriteItemRow.swift in Sources */,
+				28E4A15B2A026BC700B29B11 /* Extensions.swift in Sources */,
+				2845C86829FC3A700093DEE3 /* HeroView.swift in Sources */,
+				28E4A1642A02A29700B29B11 /* DiscoverRow.swift in Sources */,
+				2845C87129FD02C80093DEE3 /* ModelData.swift in Sources */,
+				28E4A1602A02841A00B29B11 /* CharacterDetail.swift in Sources */,
+				2845C86229FC0C7E0093DEE3 /* Home.swift in Sources */,
+				28E4A1622A0290DB00B29B11 /* CharacterItemRegulation.swift in Sources */,
+				2845C85429FC0B430093DEE3 /* NarutoWorldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2845C85C29FC0B440093DEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2845C85D29FC0B440093DEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2845C85F29FC0B440093DEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NarutoWorld/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsjoelsango.NarutoWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2845C86029FC0B440093DEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NarutoWorld/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itsjoelsango.NarutoWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2845C84B29FC0B430093DEE3 /* Build configuration list for PBXProject "NarutoWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2845C85C29FC0B440093DEE3 /* Debug */,
+				2845C85D29FC0B440093DEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2845C85E29FC0B440093DEE3 /* Build configuration list for PBXNativeTarget "NarutoWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2845C85F29FC0B440093DEE3 /* Debug */,
+				2845C86029FC0B440093DEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2845C84829FC0B430093DEE3 /* Project object */;
+}

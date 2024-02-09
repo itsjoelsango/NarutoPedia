@@ -1,6 +1,6 @@
 # Pre-work - *NARUTOPEDIA AKA NARUTOWORLD*
 
-**NARUTOPEDIA** is a tip calculator application for iOS.
+**NARUTOPEDIA** is an iOS app where you find infos about the naruto manga's characters
 
 Submitted by: **rizzdragon**
 
